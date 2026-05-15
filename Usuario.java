@@ -4,7 +4,7 @@ public class Usuario extends Colaborador {
     }
 
     @Override
-    public void enviar(String nome){
+    public void enviar(String mensagem){
         System.out.println(this.getNome() + " envioiu: " + mensagem);
         getMediador().enviarMsg(mensagem, this);
     }
